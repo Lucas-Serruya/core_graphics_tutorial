@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CoolTableViewController.h
 //  CoolTable
 //
 //  Created by Lucas Serruya on 9/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CoolTableViewController : UITableViewController
 
 @end
-

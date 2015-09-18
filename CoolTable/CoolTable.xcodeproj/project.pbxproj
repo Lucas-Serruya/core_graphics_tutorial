@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		FEE64FF31BAC414400F5AC62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE64FF21BAC414400F5AC62 /* main.m */; };
 		FEE64FF61BAC414400F5AC62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE64FF51BAC414400F5AC62 /* AppDelegate.m */; };
-		FEE64FF91BAC414400F5AC62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE64FF81BAC414400F5AC62 /* ViewController.m */; };
 		FEE64FFC1BAC414400F5AC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE64FFA1BAC414400F5AC62 /* Main.storyboard */; };
 		FEE64FFE1BAC414400F5AC62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE64FFD1BAC414400F5AC62 /* Images.xcassets */; };
 		FEE650011BAC414400F5AC62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE64FFF1BAC414400F5AC62 /* LaunchScreen.xib */; };
 		FEE6500D1BAC414400F5AC62 /* CoolTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE6500C1BAC414400F5AC62 /* CoolTableTests.m */; };
+		FEE650181BAC41AA00F5AC62 /* CoolTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE650171BAC41AA00F5AC62 /* CoolTableViewController.m */; };
+		FEE6501B1BAC49AF00F5AC62 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE6501A1BAC49AF00F5AC62 /* CustomCellBackground.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		FEE64FF21BAC414400F5AC62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEE64FF41BAC414400F5AC62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEE64FF51BAC414400F5AC62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEE64FF71BAC414400F5AC62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEE64FF81BAC414400F5AC62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FEE64FFB1BAC414400F5AC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEE64FFD1BAC414400F5AC62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEE650001BAC414400F5AC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FEE650061BAC414400F5AC62 /* CoolTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE6500B1BAC414400F5AC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEE6500C1BAC414400F5AC62 /* CoolTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolTableTests.m; sourceTree = "<group>"; };
+		FEE650161BAC41AA00F5AC62 /* CoolTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolTableViewController.h; sourceTree = "<group>"; };
+		FEE650171BAC41AA00F5AC62 /* CoolTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolTableViewController.m; sourceTree = "<group>"; };
+		FEE650191BAC49AF00F5AC62 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCellBackground.h; path = Views/CustomCellBackground.h; sourceTree = "<group>"; };
+		FEE6501A1BAC49AF00F5AC62 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCellBackground.m; path = Views/CustomCellBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +84,15 @@
 		FEE64FEF1BAC414300F5AC62 /* CoolTable */ = {
 			isa = PBXGroup;
 			children = (
+				FEE6501C1BAC49B300F5AC62 /* Views */,
 				FEE64FF41BAC414400F5AC62 /* AppDelegate.h */,
 				FEE64FF51BAC414400F5AC62 /* AppDelegate.m */,
-				FEE64FF71BAC414400F5AC62 /* ViewController.h */,
-				FEE64FF81BAC414400F5AC62 /* ViewController.m */,
 				FEE64FFA1BAC414400F5AC62 /* Main.storyboard */,
 				FEE64FFD1BAC414400F5AC62 /* Images.xcassets */,
 				FEE64FFF1BAC414400F5AC62 /* LaunchScreen.xib */,
 				FEE64FF01BAC414300F5AC62 /* Supporting Files */,
+				FEE650161BAC41AA00F5AC62 /* CoolTableViewController.h */,
+				FEE650171BAC41AA00F5AC62 /* CoolTableViewController.m */,
 			);
 			path = CoolTable;
 			sourceTree = "<group>";
@@ -117,6 +121,15 @@
 				FEE6500B1BAC414400F5AC62 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE6501C1BAC49B300F5AC62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEE650191BAC49AF00F5AC62 /* CustomCellBackground.h */,
+				FEE6501A1BAC49AF00F5AC62 /* CustomCellBackground.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE64FF91BAC414400F5AC62 /* ViewController.m in Sources */,
+				FEE6501B1BAC49AF00F5AC62 /* CustomCellBackground.m in Sources */,
 				FEE64FF61BAC414400F5AC62 /* AppDelegate.m in Sources */,
+				FEE650181BAC41AA00F5AC62 /* CoolTableViewController.m in Sources */,
 				FEE64FF31BAC414400F5AC62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
